@@ -1,0 +1,31 @@
+{
+  "name": "camemoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "server": "GOOGLE_APPLICATION_CREDENTIALS=./auth.json node ./server/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "firebase": "^6.0.2",
+    "http2": "^3.3.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
