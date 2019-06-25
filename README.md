@@ -2,7 +2,7 @@
 
 ## Demo
 
-![camemoji demo](demo/camemoji_demo.mp4 "camemoji demo")
+![camemoji demo](demo/camemoji_demo.gif "camemoji demo")
 
 Experimental project that uses [Google Cloud Vidion API](https://cloud.google.com/) in nodejs to recognize faces' emotions and map these results to emojis.
 
